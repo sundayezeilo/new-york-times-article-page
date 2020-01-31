@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 45px;
+    background-color: white;
+    /* overflow: hidden; */
+}
+
+.header-left-container {
+    float: left;
+    width: 33%;
+    padding: 5px 5px;
+}
+
+
+.header-center-container {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.header-right-container {
+    text-align: right;
+    float: left;
+    width: 31%;
+}
+
+
+.ny-times-main-logo {
+    /* height: 70px; */
+    width: 200px;
+}
+
+.space-cosmos-text {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
