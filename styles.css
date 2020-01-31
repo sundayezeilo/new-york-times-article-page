@@ -8,32 +8,53 @@
 .header-container {
     height: 45px;
     background-color: white;
-    /* overflow: hidden; */
 }
 
 .header-left-container {
     float: left;
-    width: 33%;
+    width: 33.3%;
     padding: 5px 5px;
+    height: 45px;
+    
+}
+
+.header-left-container i {
+   vertical-align: middle;
+}
+
+.header-left-container a {
+    vertical-align: middle;
 }
 
 
 .header-center-container {
     float: left;
-    width: 33%;
+    width: 33.3%;
     text-align: center;
+     height: 45px;
+}
+
+.header-center-container a {
+    vertical-align: middle;
+
 }
 
 .header-right-container {
     text-align: right;
     float: left;
-    width: 31%;
+    width: 33.3%;
+     height: 45px;
+}
+
+.header-right-container a, button {
+    vertical-align: bottom  ;
 }
 
 
 .ny-times-main-logo {
-    /* height: 70px; */
     width: 200px;
+    vertical-align: middle;
+
 }
 
 .space-cosmos-text {
@@ -44,4 +65,13 @@
 
 a {
     display: inline-block;
+}
+
+.main-title {
+    height: 96px;
+}
+
+.main-image {
+    min-width: 600px;
+    max-width: 1004px;
 }
