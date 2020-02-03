@@ -72,6 +72,11 @@ a {
 }
 
 .main-image {
+    text-align: center;
+}
+
+.main-image img {
     min-width: 600px;
     max-width: 1004px;
+    width: 84vw;
 }
