@@ -90,44 +90,38 @@ a {
     height: 96px;
 }
 
-.main-image {
-    text-align: center;
+.main-image img {
+    width: 100%;
 }
 
-.main-image img {
+.img-caption-wrap {
     min-width: 600px;
     max-width: 1004px;
     width: 84vw;
+    margin: 0 auto;
 }
 
 .heading-container {
-    text-align: center;
+    height: 96px;
 }
 
 .main-heading {
-    /* display: inline-block; */
-    max-width: 388.777px;
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40vw;
     margin: 10px auto;
 }
 
-.top-page {}
+.main-heading h1 {
+    text-align: left;
+}
 
 .main-caption-container {
-    color: #666;
-    font-family: georgia, 'times new roman', times, serif;
-    margin: 10px 20px 0;
-    text-align: left;
-    max-width: 70%;
+    max-width: 840px;
 }
 
 .main-caption-text {
-    margin-right: 7px;
-    color: #666;
-    font-family: georgia, 'times new roman', times, serif;
-    font-size: 0.875rem;
-    line-height: 1.125rem;
+    font-size: 0.88em;
 }
 
-.copyright-caption {}
+.copyright-caption {
+    font-size: 0.73em;
+}
