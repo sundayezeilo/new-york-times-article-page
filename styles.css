@@ -30,12 +30,11 @@
     float: left;
     width: 33.3%;
     text-align: center;
-     height: 45px;
+    height: 45px;
 }
 
 .header-center-container a {
     vertical-align: middle;
-
 }
 
 .header-right-container {
