@@ -125,3 +125,20 @@ a {
 .copyright-caption {
     font-size: 0.73em;
 }
+
+.social-media li {
+    display: inline;
+}
+
+.facebook-logo {
+    width: 18px;
+}
+
+.social-media li{
+    width: 18px;
+}
+
+
+.social-media-links {
+    float: right;
+}
