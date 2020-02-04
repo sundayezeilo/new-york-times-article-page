@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     border: 1px solid red;
 }
 
@@ -113,7 +114,7 @@ a {
 .main-heading h1 {
     text-align: center;
     color: #121212;
-    font-family: 'nyt-cheltenham',georgia,'times new roman',times,serif;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     font-weight: 700;
     font-style: italic;
     font-size: 1.9375rem;
@@ -137,7 +138,7 @@ a {
 }
 
 
-.social-media-links img{
+.social-media-links img {
     width: 18px;
 }
 
@@ -153,11 +154,29 @@ a {
 }
 
 aside {
-    float: right;
+    /* float: right; */
+    position: absolute;
     width: 210px;
-    margin-top: 50em;
-    margin-right: -40px;
+    top: 80em;
+    left: 73%;
 }
+
+@media(max-width:1350px) {
+    article img {
+        display: none;
+    }
+
+    .side-bar {
+        width: calc(100% - 85px);
+    }
+}
+
+@media(max-width:1300px) {
+    .side-bar {
+        display: none;
+    }
+}
+
 
 article img {
     float: left;
@@ -165,7 +184,7 @@ article img {
 }
 
 article h3 {
-    font-size: 11px;
+    font-size: 14px;
     padding-left: 10px;
 }
 
@@ -179,13 +198,13 @@ article h3 {
 
 
 
-.lower-text-3 { 
+.lower-text-3 {
     width: 840px;
-    max-width:100%;
-    margin:0 auto
+    max-width: 100%;
+    margin: 0 auto
 }
 
-.lower-text-3 h2{
+.lower-text-3 h2 {
     margin-top: 20px;
 }
 
