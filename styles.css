@@ -152,6 +152,33 @@ a {
     margin: 0 auto;
 }
 
+aside {
+    float: right;
+    width: 210px;
+    margin-top: 50em;
+    margin-right: -40px;
+}
+
+article img {
+    float: left;
+    width: 75px;
+}
+
+article h3 {
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+.article-container {
+    width: 600px;
+}
+
+
+
 .lower-text-3 { 
     width: 840px;
     max-width:100%;
