@@ -133,8 +133,9 @@ a {
     font-size: 0.73em;
 }
 
-.social-media li {
+.social-media-links li {
     display: inline;
+    margin: 0 10px;
 }
 
 
@@ -146,9 +147,10 @@ a {
 .social-media-links {
     float: right;
     margin-right: 252px;
+    list-style-type: none;
 }
 
-.lower-text-2 {
+.blog-text-area {
     width: 600px;
     margin: 0 auto;
 }
@@ -189,7 +191,9 @@ article h3 {
 }
 
 .line {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .article-container {
@@ -217,3 +221,30 @@ article h3 {
     max-width: 100%;
     margin-top: 30px;
 }
+
+.social-icons {
+    position: relative;
+    left: 420px;
+    display: inline-block;
+}
+
+.social-button {
+    position: absolute;
+    width: 330px;
+    height: 36px;
+    background-color: #567b95;
+    color: #ffffff;
+    padding: 10px 0;
+    border: 1px solid rgb(50, 104, 145);
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 13px;
+}
+
+.social-bar {
+    margin-bottom: 60px;
+}
+
