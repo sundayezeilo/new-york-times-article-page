@@ -248,3 +248,28 @@ article h3 {
     margin-bottom: 60px;
 }
 
+.signup-bar {
+    width: 90%;
+    /* margin: 45px 45px 0 45px; */
+    margin: 20px auto;
+}
+
+.left-side-sb {
+    float: left;
+}
+
+.right-side-sb {
+    float: right;
+}
+
+.left-side-sb h3 {
+    margin-bottom: 10px;
+}
+
+.privacy-contact {
+    margin-top: 15px;
+}
+
+.accept-terms {
+    margin-top: 10px;
+}
