@@ -106,12 +106,18 @@ a {
 }
 
 .main-heading {
-    width: 40vw;
+    width: 20vw;
     margin: 10px auto;
 }
 
 .main-heading h1 {
-    text-align: left;
+    text-align: center;
+    color: #121212;
+    font-family: 'nyt-cheltenham',georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
 }
 
 .main-caption-container {
@@ -130,20 +136,38 @@ a {
     display: inline;
 }
 
-.facebook-logo {
-    width: 18px;
-}
 
-.social-media li{
+.social-media-links img{
     width: 18px;
 }
 
 
 .social-media-links {
     float: right;
+    margin-right: 252px;
 }
 
 .lower-text-2 {
     width: 600px;
     margin: 0 auto;
+}
+
+.lower-text-3 { 
+    width: 840px;
+    max-width:100%;
+    margin:0 auto
+}
+
+.lower-text-3 h2{
+    margin-top: 20px;
+}
+
+.lower-text-3 p {
+    margin-top: 20px;
+}
+
+.inflation-image {
+    height: auto;
+    max-width: 100%;
+    margin-top: 30px;
 }
