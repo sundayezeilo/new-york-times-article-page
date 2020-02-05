@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     border: 1px solid red;
+}
+
+html {
+    background-color: #f4f4f4;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
 }
 
 .header-container {
@@ -145,9 +149,13 @@ a {
 
 
 .social-media-links {
-    float: right;
-    margin-right: 252px;
+    display: inline;
     list-style-type: none;
+    position: relative;
+}
+
+.above-article {
+    left: 230px;
 }
 
 .blog-text-area {
@@ -192,7 +200,7 @@ article h3 {
 
 .line {
     border-bottom: 1px solid black;
-    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -249,17 +257,21 @@ article h3 {
 }
 
 .signup-bar {
-    width: 90%;
-    /* margin: 45px 45px 0 45px; */
+    max-width: 1200px;
     margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 .left-side-sb {
     float: left;
+    width: 48%;
 }
 
 .right-side-sb {
     float: right;
+    width: 48%;
 }
 
 .left-side-sb h3 {
@@ -272,4 +284,28 @@ article h3 {
 
 .accept-terms {
     margin-top: 10px;
+}
+
+.signup-email {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.signup-submit {
+    position: absolute;
+    right: 0;
+    width: 175.5px;
+    height: 40px;
+    background-color: #567b95;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+}
+
+.accept-terms span {
+    font-size: 14px;
+    color: #999999;
 }
