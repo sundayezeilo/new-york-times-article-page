@@ -211,23 +211,21 @@ article h3 {
 
 
 .lower-text-3 {
-    width: 840px;
-    max-width: 100%;
-    margin: 0 auto
-}
-
-.lower-text-3 h2 {
-    margin-top: 20px;
+    width: 945px;
+    position: relative;
+    left: -172.5px;
+    margin: 20px 0;
 }
 
 .lower-text-3 p {
-    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 0px;
 }
 
 .inflation-image {
-    height: auto;
-    max-width: 100%;
-    margin-top: 30px;
+    height: 576px;
+    width: 100%;
+    position: relative;
 }
 
 .social-icons {
@@ -308,4 +306,52 @@ article h3 {
 .accept-terms span {
     font-size: 14px;
     color: #999999;
+}
+
+.blog-text-area {
+    font-size: 20px;
+}
+
+.blog-text-area p {
+    margin-bottom: 15px;
+}
+
+.inflation-textboxes {
+    width: 228px;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 36%;
+    left: 0.0436%;
+}
+
+.not-enough-time {
+    left: 25%;
+}
+
+.distant-coffee {
+    left: 50%;
+}
+
+.coffee-everywhere {
+    left: 75%;
+}
+
+.still-not-enough-time {
+    top: 76%;
+}
+
+.inflation {
+    top: 76%;
+    left: 25%;
+}
+
+.fluctuation {
+    top: 76%;
+    left: 50%;
+}
+
+.expansion {
+    top: 76%;
+    left: 75%;
 }
