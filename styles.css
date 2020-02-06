@@ -422,3 +422,42 @@ span {
 .ny-times-footer-img {
     width: 200px;
 }
+
+.footer-section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer-header {
+    position: relative;
+}
+
+.homepage-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.links-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.left-side-links-container {
+    width: 80%;
+    float: left;
+    background: pink;
+}
+
+.footer-links {
+    float: left;
+    width: 20%;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.legal-footer {
+    clear: both;
+}
