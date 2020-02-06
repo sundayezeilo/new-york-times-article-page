@@ -58,7 +58,6 @@ button {
 .ny-times-main-logo {
     width: 200px;
     vertical-align: middle;
-
 }
 
 .space-cosmos-text {
@@ -137,6 +136,10 @@ a {
     font-size: 0.73em;
 }
 
+.social-media {
+    position: relative;
+}
+
 .social-media-links li {
     display: inline;
     margin: 0 10px;
@@ -155,7 +158,8 @@ a {
 }
 
 .above-article {
-    left: 230px;
+    position: absolute;
+    right: 1px;
 }
 
 .blog-text-area {
@@ -411,3 +415,10 @@ span {
     margin-left: 1.15%;
 }
 
+.footer-section {
+    margin-top: 20px;
+}
+
+.ny-times-footer-img {
+    width: 200px;
+}
