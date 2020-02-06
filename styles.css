@@ -365,21 +365,49 @@ span {
 
 .bottom-articles {
     max-width: 1200px;
-    /* position: relative; */
-    overflow: hidden;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .more-articles-container {
-    max-width: 70%;
-    float: left;
+    /* width: 100%; */
+    overflow: hidden;
 }
 
-.articles img {
+.article img {
     width: 100%;
 }
 
-.most-pop-articles {
-    max-width: 30%;
-    float: left;
+.editor-pick-panel {
+    /* width: 100%; */
+    overflow: hidden;
+    background-color: pink;
 }
+
+.article {
+    float: left;
+    width: 31%;
+    margin: 10px 1.15%;
+}
+
+.article figcaption {
+    text-align: right;
+    font-size: 10px;
+}
+
+.article-wrap {
+    float: left;
+    max-width: 70%;
+    margin-right: 1.5%;
+}
+
+.side-bar-pop {
+    float: left;
+    width: 28%;
+    background: green;
+}
+
+.article-link {
+    margin-left: 1.15%;
+}
+
