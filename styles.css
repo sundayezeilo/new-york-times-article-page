@@ -277,11 +277,16 @@ article h3 {
 }
 
 .privacy-contact {
-    margin-top: 15px;
+    font-size: 10px;
+    margin-bottom: 45px;
 }
 
 .accept-terms {
-    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.accept-terms input, span {
+    vertical-align: middle;
 }
 
 .signup-email {
@@ -290,6 +295,7 @@ article h3 {
     padding: 0 10px;
     font-size: 16px;
     border-radius: 4px;
+    margin-bottom: 5px;
 }
 
 .signup-submit {
