@@ -285,7 +285,8 @@ article h3 {
     margin-bottom: 30px;
 }
 
-.accept-terms input, span {
+.accept-terms input,
+span {
     vertical-align: middle;
 }
 
@@ -360,4 +361,25 @@ article h3 {
 .expansion {
     top: 76%;
     left: 75%;
+}
+
+.bottom-articles {
+    max-width: 1200px;
+    /* position: relative; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.more-articles-container {
+    max-width: 70%;
+    float: left;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.most-pop-articles {
+    max-width: 30%;
+    float: left;
 }
