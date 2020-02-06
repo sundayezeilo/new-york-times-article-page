@@ -444,15 +444,44 @@ span {
 }
 
 .left-side-links-container {
-    width: 80%;
+    width: 83.33%;
     float: left;
-    background: pink;
+}
+
+.right-side-links-container {
+    float: left;
+    width: 16.66%;
+}
+
+.right-side-links-container .footer-links {
+    width: 100%;
+    border-left: 1px solid gray;
 }
 
 .footer-links {
     float: left;
     width: 20%;
+    font-family: 'nyt-franklin';
 }
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.footer-links p {
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 150px;
+}
+
 
 .footer-links li {
     list-style: none;
@@ -460,4 +489,15 @@ span {
 
 .legal-footer {
     clear: both;
+}
+
+.legal-footer ul {
+    text-align: center;
+}
+
+.legal-footer li {
+    display: inline;
+    list-style: none;
+    color: black;
+    text-decoration: none;
 }
