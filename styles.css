@@ -197,18 +197,19 @@ article img {
     width: 75px;
 }
 
-.more-articles-containe h4 {
+.more-articles-container h4 {
     font-size: 18px;
+}
+
+.top-link-art-container {
+    margin-left: 1.15%;
+    padding-top: 20px;
 }
 
 article h3 {
     font-size: 14px;
     padding-left: 10px;
 }
-
-/* .article h3{
-    font-size: 18px;
-} */
 
 .line {
     border-bottom: 1px solid black;
@@ -385,9 +386,12 @@ span {
 
 .more-articles-container {
     overflow: hidden;
-    border-top: 1px solid black;
 }
 
+.especial-line1 {
+    width: 97.70%;
+    margin: 0 auto;
+}
 
 .article img {
     width: 100%;
@@ -423,10 +427,10 @@ span {
 }
 
 .article-link {
-    margin-left: 1.15%;
     text-decoration: none;
     font-size: 18px;
     font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
+    color: #121212;
 }
 
 .footer-section {
