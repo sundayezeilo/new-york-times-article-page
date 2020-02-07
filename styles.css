@@ -102,7 +102,7 @@ a {
     min-width: 600px;
     max-width: 1004px;
     width: 84vw;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
 }
 
 .heading-container {
@@ -110,12 +110,13 @@ a {
 }
 
 .main-heading {
-    width: 20vw;
-    margin: 10px auto;
+    width: 70%;
+    max-width: 320px;
+    margin: 10px 0 0 15%;
 }
 
 .main-heading h1 {
-    text-align: center;
+    text-align: left;
     color: #121212;
     font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     font-weight: 700;
@@ -129,15 +130,39 @@ a {
 }
 
 .main-caption-text {
-    font-size: 0.88em;
+    font-size: 15px;
 }
 
 .copyright-caption {
-    font-size: 0.73em;
+    font-size: 13px;
+}
+
+.dennis-overbye {
+    color: #121212;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.dennis-overbye:hover {
+    text-decoration: none;
+}
+
+.article-date {
+    display: inline;
+    font-size: 13px;
+    color: #333333;
+    font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
+}
+
+.author-complement {
+    color: #121212;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .social-media {
     position: relative;
+    padding: 10px 0 35px 0;
 }
 
 .social-media-links li {
@@ -168,11 +193,11 @@ a {
 }
 
 aside {
-    /* float: right; */
     position: absolute;
     width: 210px;
     top: 80em;
     left: 73%;
+    padding-left: 20px;
 }
 
 @media(max-width:1350px) {
@@ -181,7 +206,7 @@ aside {
     }
 
     .side-bar {
-        width: calc(100% - 85px);
+        width: 180px;
     }
 }
 
@@ -541,6 +566,7 @@ span {
 }
 
 .fixed-bottom-bar {
+    /* position: fixed; */
     height: 55px;
     background-color: rgb(51, 51, 51);
     text-align: center;   
