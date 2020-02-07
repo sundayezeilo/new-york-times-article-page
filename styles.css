@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -374,7 +374,6 @@ span {
 }
 
 .more-articles-container {
-    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -383,7 +382,6 @@ span {
 }
 
 .editor-pick-panel {
-    /* width: 100%; */
     overflow: hidden;
     background-color: pink;
 }
@@ -408,11 +406,13 @@ span {
 .side-bar-pop {
     float: left;
     width: 28%;
-    background: green;
 }
 
 .article-link {
     margin-left: 1.15%;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
 }
 
 .footer-section {
@@ -499,5 +499,19 @@ span {
     display: inline;
     list-style: none;
     color: black;
+    text-decoration: none;
+}
+
+.suggestions {
+    border-top: 1px solid gray;
+    font-size: 19px;
+    padding: 15px 0;
+    
+}
+
+.suggestions a {
+    font-size: 19px;
+    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
+    color: #121212;
     text-decoration: none;
 }
