@@ -507,6 +507,7 @@ span {
 
 .legal-footer {
     clear: both;
+    padding: 10px;
 }
 
 .legal-footer ul {
@@ -516,7 +517,12 @@ span {
 .legal-footer li {
     display: inline;
     list-style: none;
-    color: black;
+}
+
+.legal-footer a{
+    color: #666666;
+    font-size: 11px;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -531,5 +537,33 @@ span {
     font-size: 19px;
     font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
     color: #121212;
+    text-decoration: none;
+}
+
+.fixed-bottom-bar {
+    height: 55px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;   
+}
+
+.subscribe-cta {
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    padding: 16px;
+    color: white;
+}
+
+.subscribe-cta a{
+    color: white;
+}
+
+.subscribe-note {
+    display: inline-block;
+    padding: 16px;
+}
+
+.subscribe-note a{
+    color: white;
     text-decoration: none;
 }
