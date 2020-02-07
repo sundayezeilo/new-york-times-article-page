@@ -197,10 +197,18 @@ article img {
     width: 75px;
 }
 
+.more-articles-containe h4 {
+    font-size: 18px;
+}
+
 article h3 {
     font-size: 14px;
     padding-left: 10px;
 }
+
+/* .article h3{
+    font-size: 18px;
+} */
 
 .line {
     border-bottom: 1px solid black;
@@ -212,7 +220,9 @@ article h3 {
     width: 600px;
 }
 
-
+.article-date {
+    font-size: 12px;
+}
 
 .lower-text-3 {
     width: 945px;
@@ -375,7 +385,9 @@ span {
 
 .more-articles-container {
     overflow: hidden;
+    border-top: 1px solid black;
 }
+
 
 .article img {
     width: 100%;
@@ -390,6 +402,7 @@ span {
     float: left;
     width: 31%;
     margin: 10px 1.15%;
+    height: 300px;
 }
 
 .article figcaption {
@@ -406,6 +419,7 @@ span {
 .side-bar-pop {
     float: left;
     width: 28%;
+    border-top: 1px solid gray;
 }
 
 .article-link {
