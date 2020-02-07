@@ -424,7 +424,6 @@ span {
 
 .editor-pick-panel {
     overflow: hidden;
-    background-color: pink;
 }
 
 .article {
@@ -499,6 +498,7 @@ span {
 .right-side-links-container .footer-links {
     width: 100%;
     border-left: 1px solid gray;
+    padding-left: 10px;
 }
 
 .footer-links {
@@ -592,4 +592,47 @@ span {
 .subscribe-note a{
     color: white;
     text-decoration: none;
+}
+
+.video-caption {
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 80px;
+}
+
+.video-caption span{
+    font-size: 12px;
+    color: #888888;
+}
+
+.video-wrap {
+    margin: 43px 0;
+}
+
+.telescope-wrap img{
+    width: 120%;
+    position: relative;
+    left: -10%;
+}
+
+.telescope-wrap {
+    margin: 43px 0;
+}
+
+
+.telescope-caption {
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    width: 115%;
+    left: -10%;
+}
+
+.telescope-caption span{
+    font-size: 12px;
+    color: #888888;
 }
