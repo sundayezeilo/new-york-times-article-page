@@ -24,12 +24,12 @@ html {
 .header-left-container {
     float: left;
     width: 33.3%;
-    height: 45px;
+    height: 100%;
+    margin: 7px 0;
 }
 
 .header-left-container li {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline;
 }
 
 .header-left-container i {
@@ -49,6 +49,7 @@ html {
     float: left;
     width: 33.3%;
     height: 45px;
+    margin-top: 5px;
 }
 
 .header-right-container a,
@@ -60,7 +61,7 @@ button {
 
 .ny-times-main-logo {
     width: 200px;
-    margin-top: 5px;
+    margin-top:8px;
 }
 
 
@@ -118,13 +119,16 @@ a {
     margin: 10px 0 0 15%;
 }
 
-.main-heading h1 {
-    text-align: left;
+.main-heading  {
+    display: inline-block;
+    max-width: 558.281px;
+    margin-top: 2em;
+    margin-left: 30%;
     color: #121212;
     font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 1.9375rem;
+    font-size: 40px;
     line-height: 2.25rem;
 }
 
