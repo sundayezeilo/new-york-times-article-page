@@ -1,676 +1,673 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 html {
-    background-color: #fff;
-    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+  background-color: #fff;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
 }
 
 .header-container {
-    height: 45px;
-    background-color: white;
-    font-family: nyt-franklin, georgia, 'times new roman', times, serif;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    border-bottom: 1px solid rgb(226, 226, 226);
-    z-index: 1;
+  height: 45px;
+  background-color: white;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  z-index: 1;
 }
 
 .header-left-container {
-    float: left;
-    width: 33.3%;
-    height: 100%;
-    margin: 7px 0;
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  margin: 7px 0;
 }
 
 .header-left-container li {
-    display: inline;
+  display: inline;
 }
 
 .header-left-container i {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
-
 .header-center-container {
-    float: left;
-    width: 33.3%;
-    text-align: center;
-    height: 45px;
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  height: 45px;
 }
 
 .header-right-container {
-    text-align: right;
-    float: left;
-    width: 33.3%;
-    height: 45px;
-    margin-top: 5px;
+  text-align: right;
+  float: left;
+  width: 33.3%;
+  height: 45px;
+  margin-top: 5px;
 }
 
 .header-right-container a,
 button {
-    vertical-align: bottom;
-    font-size: 11px;
+  vertical-align: bottom;
+  font-size: 11px;
 }
-
 
 .ny-times-main-logo {
-    width: 200px;
-    margin-top:8px;
+  width: 200px;
+  margin-top: 8px;
 }
 
-
-
 .space-cosmos-text {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .subscribe-button,
 .login-button {
-    text-decoration: none;
-    color: white;
-    background-color: #326891;
-    font-weight: bold;
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 11px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+  text-decoration: none;
+  color: white;
+  background-color: #326891;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 11px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .login-button {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
 a {
-    display: inline-block;
+  display: inline-block;
 }
 
 .main-title {
-    height: 96px;
+  height: 96px;
 }
 
 .main-image img {
-    width: 100%;
-    cursor: pointer;
+  width: 100%;
+  cursor: pointer;
 }
 
 .img-caption-wrap {
-    min-width: 600px;
-    max-width: 1004px;
-    width: 84vw;
-    margin: 45px auto 40px auto;
+  min-width: 600px;
+  max-width: 1004px;
+  width: 84vw;
+  margin: 45px auto 40px auto;
 }
 
 .heading-container {
-    height: 96px;
+  height: 96px;
 }
 
 .main-heading {
-    width: 70%;
-    max-width: 320px;
-    margin: 10px 0 0 15%;
+  width: 70%;
+  max-width: 320px;
+  margin: 10px 0 0 15%;
 }
 
-.main-heading  {
-    display: inline-block;
-    max-width: 558.281px;
-    margin-top: 2em;
-    margin-left: 30%;
-    color: #121212;
-    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 2.25rem;
+.main-heading {
+  display: inline-block;
+  max-width: 558.281px;
+  margin-top: 2em;
+  margin-left: 30%;
+  color: #121212;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 2.25rem;
 }
 
 .main-caption-container {
-    max-width: 840px;
+  max-width: 840px;
 }
 
 .main-caption-text {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .copyright-caption {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .dennis-overbye {
-    color: #121212;
-    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-    font-size: 15px;
+  color: #121212;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .dennis-overbye:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .article-date {
-    display: inline;
-    font-size: 13px;
-    color: #333333;
-    font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
+  display: inline;
+  font-size: 13px;
+  color: #333333;
+  font-family: "nyt-franklin", Helvetica, Arial, sans-serif;
 }
 
 .author-complement {
-    color: #121212;
-    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-    font-size: 15px;
+  color: #121212;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .social-media {
-    position: relative;
-    padding: 10px 0 35px 0;
+  position: relative;
+  padding: 10px 0 35px 0;
 }
 
 .social-media-links li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
-
 
 .social-media-links img {
-    width: 18px;
+  width: 18px;
 }
 
-
 .social-media-links {
-    display: inline;
-    list-style-type: none;
-    position: relative;
+  display: inline;
+  list-style-type: none;
+  position: relative;
 }
 
 .above-article {
-    position: absolute;
-    right: 1px;
+  position: absolute;
+  right: 1px;
 }
 
 .blog-text-area {
-    width: 600px;
-    margin: 0 auto;
-    color: #333;
+  width: 600px;
+  margin: 0 auto;
+  color: #333;
 }
 
 aside {
-    position: absolute;
-    width: 210px;
-    top: 100em;
-    right: 15%;
+  position: absolute;
+  width: 210px;
+  top: 100em;
+  right: 15%;
 }
 
 .side-bar h2 {
-    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
-    font-size: 14px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #d2d2d2;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d2d2d2;
 }
 
 @media (max-width: 1600px) {
-    aside {
-        right: 7%;
-    }
+  aside {
+    right: 7%;
+  }
 }
 
-@media(max-width:1350px) {
-    article img {
-        display: none;
-    }
+@media (max-width: 1350px) {
+  article img {
+    display: none;
+  }
 
-    .side-bar {
-        width: 180px;
-    }
+  .side-bar {
+    width: 180px;
+  }
 
-    .side-bar h3 {
-        margin-bottom: 15px;
-        border-bottom: 1px solid #d4d4d4;
-        padding-bottom: 10px;
-
-    }
+  .side-bar h3 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 10px;
+  }
 }
 
-@media(max-width:1300px) {
-    .side-bar {
-        display: none;
-    }
+@media (max-width: 1300px) {
+  .side-bar {
+    display: none;
+  }
 }
-
 
 article img {
-    float: left;
-    width: 75px;
-    padding-bottom: 20px;
-    margin-right: 10px;
+  float: left;
+  width: 75px;
+  padding-bottom: 20px;
+  margin-right: 10px;
 }
 
 .more-articles-container h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .top-link-art-container {
-    margin-left: 1.15%;
-    padding-top: 20px;
+  margin-left: 1.15%;
+  padding-top: 20px;
 }
 
 article h3 {
-    font-size: 14px;
-    padding-left: 10px;
-    text-decoration: none;
-    color: #333;
+  font-size: 14px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #333;
 }
 
 article a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .line {
-    border-bottom: 1px solid black;
-    max-width: 1200px;
-    margin: 0 auto;
+  border-bottom: 1px solid black;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .article-container {
-    width: 600px;
+  width: 600px;
 }
 
 .article-date {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .lower-text-3 {
-    width: 945px;
-    position: relative;
-    left: -172.5px;
-    margin: 20px 0;
+  width: 945px;
+  position: relative;
+  left: -172.5px;
+  margin: 20px 0;
 }
 
 .lower-text-3 p {
-    font-size: 14px;
-    margin-bottom: 0px;
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
 .inflation-image {
-    height: 576px;
-    width: 100%;
-    position: relative;
+  height: 576px;
+  width: 100%;
+  position: relative;
 }
 
 .social-icons {
-    position: relative;
-    left: 420px;
-    display: inline-block;
+  position: relative;
+  left: 420px;
+  display: inline-block;
 }
 
 .social-button {
-    position: absolute;
-    width: 330px;
-    height: 36px;
-    background-color: #567b95;
-    color: #ffffff;
-    padding: 10px 0;
-    border: 1px solid rgb(50, 104, 145);
-    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    font-size: 13px;
+  position: absolute;
+  width: 330px;
+  height: 36px;
+  background-color: #567b95;
+  color: #ffffff;
+  padding: 10px 0;
+  border: 1px solid rgb(50, 104, 145);
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  font-size: 13px;
 }
 
 .social-bar {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .signup-bar {
-    max-width: 1200px;
-    margin: 20px auto;
-    position: relative;
-    overflow: hidden;
-    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
 }
 
 .left-side-sb {
-    float: left;
-    width: 48%;
+  float: left;
+  width: 48%;
 }
 
 .right-side-sb {
-    float: right;
-    width: 48%;
+  float: right;
+  width: 48%;
 }
 
 .left-side-sb h3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .privacy-contact {
-    font-size: 10px;
-    margin-bottom: 45px;
+  font-size: 10px;
+  margin-bottom: 45px;
 }
 
 .accept-terms {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .accept-terms input,
 span {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .signup-email {
-    width: 100%;
-    height: 40px;
-    padding: 0 10px;
-    font-size: 16px;
-    border-radius: 4px;
-    margin-bottom: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
 
 .signup-submit {
-    position: absolute;
-    right: 0;
-    width: 175.5px;
-    height: 40px;
-    background-color: #567b95;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 0 4px 4px 0;
+  position: absolute;
+  right: 0;
+  width: 175.5px;
+  height: 40px;
+  background-color: #567b95;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 0 4px 4px 0;
 }
 
 .accept-terms span {
-    font-size: 14px;
-    color: #999999;
+  font-size: 14px;
+  color: #999999;
 }
 
 .blog-text-area {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .blog-text-area p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .inflation-textboxes {
-    width: 228px;
-    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    position: absolute;
-    top: 36%;
-    left: 0.0436%;
+  width: 228px;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: 36%;
+  left: 0.0436%;
 }
 
 .not-enough-time {
-    left: 25%;
+  left: 25%;
 }
 
 .distant-coffee {
-    left: 50%;
+  left: 50%;
 }
 
 .coffee-everywhere {
-    left: 75%;
+  left: 75%;
 }
 
 .still-not-enough-time {
-    top: 76%;
+  top: 76%;
 }
 
 .inflation {
-    top: 76%;
-    left: 25%;
+  top: 76%;
+  left: 25%;
 }
 
 .fluctuation {
-    top: 76%;
-    left: 50%;
+  top: 76%;
+  left: 50%;
 }
 
 .expansion {
-    top: 76%;
-    left: 75%;
+  top: 76%;
+  left: 75%;
 }
 
 .bottom-articles {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .more-articles-container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .especial-line1 {
-    width: 97.70%;
-    margin: 0 auto;
+  width: 97.7%;
+  margin: 0 auto;
 }
 
 .article img {
-    width: 100%;
+  width: 100%;
 }
 
 .editor-pick-panel {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .article {
-    float: left;
-    width: 31%;
-    margin: 10px 1.15%;
-    height: 300px;
+  float: left;
+  width: 31%;
+  margin: 10px 1.15%;
+  height: 300px;
 }
 
 .article figcaption {
-    text-align: right;
-    font-size: 10px;
+  text-align: right;
+  font-size: 10px;
 }
 
 .article-wrap {
-    float: left;
-    max-width: 70%;
-    margin-right: 1.5%;
+  float: left;
+  max-width: 70%;
+  margin-right: 1.5%;
 }
 
 .side-bar-pop {
-    float: left;
-    width: 28%;
-    border-top: 1px solid gray;
+  float: left;
+  width: 28%;
+  border-top: 1px solid gray;
 }
 
 .article-link {
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
-    color: #121212;
-}
-
-.footer-section {
-    margin-top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif;
+  color: #121212;
 }
 
 .ny-times-footer-img {
-    width: 200px;
+  width: 200px;
 }
 
 .footer-section {
-    width: 85%;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-header {
-    position: relative;
+  position: relative;
+  margin-top: 1px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .homepage-link {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  font-size: 11px;
+  color: #567b95;
+  text-decoration: none;
+  font-family: nyt-franklin, Helvetica, Arial, sans-serif;
 }
 
 .links-wrapper {
-    overflow: hidden;
-    width: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 .left-side-links-container {
-    width: 83.33%;
-    float: left;
+  width: 83.33%;
+  float: left;
 }
 
 .right-side-links-container {
-    float: left;
-    width: 16.66%;
+  float: left;
+  width: 16.66%;
 }
 
 .right-side-links-container .footer-links {
-    width: 100%;
-    border-left: 1px solid gray;
-    padding-left: 10px;
+  width: 100%;
+  border-left: 1px solid gray;
+  padding-left: 10px;
 }
 
 .footer-links {
-    float: left;
-    width: 20%;
-    font-family: 'nyt-franklin';
+  float: left;
+  width: 20%;
+  font-family: "nyt-franklin";
 }
 
 .footer-links a {
-    text-decoration: none;
-    font-size: 14px;
-    color: black;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
 }
 
 .footer-links p {
-    color: #333;
-    font-size: 13px;
-    font-weight: 700;
-    font-family: nyt-franklin;
-    height: 25px;
-    line-height: 15px;
-    margin: 0;
-    text-transform: uppercase;
-    width: 150px;
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 150px;
 }
 
-
 .footer-links li {
-    list-style: none;
+  list-style: none;
 }
 
 .legal-footer {
-    clear: both;
-    padding: 10px;
+  clear: both;
+  padding: 10px;
+  margin-bottom: 70px;
+  margin-top: 15px;
+  border-top: 1px solid #d4d4d4;
 }
 
 .legal-footer ul {
-    text-align: center;
+  text-align: center;
 }
 
 .legal-footer li {
-    display: inline;
-    list-style: none;
+  display: inline;
+  list-style: none;
 }
 
 .legal-footer a {
-    color: #666666;
-    font-size: 11px;
-    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-    text-decoration: none;
+  color: #666666;
+  font-size: 11px;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .suggestions {
-    border-top: 1px solid gray;
-    font-size: 19px;
-    padding: 15px 0;
-
+  border-top: 1px solid gray;
+  font-size: 19px;
+  padding: 15px 0;
 }
 
 .suggestions a {
-    font-size: 19px;
-    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
-    color: #121212;
-    text-decoration: none;
+  font-size: 19px;
+  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
+  color: #121212;
+  text-decoration: none;
 }
 
 .fixed-bottom-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 55px;
-    background-color: rgb(51, 51, 51);
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(51, 51, 51);
+  text-align: center;
 }
 
 .subscribe-cta {
-    position: absolute;
-    display: inline-block;
-    right: 10%;
-    padding: 16px;
-    color: white;
+  position: absolute;
+  display: inline-block;
+  right: 10%;
+  padding: 16px;
+  color: white;
 }
 
 .subscribe-cta a {
-    color: white;
+  color: white;
 }
 
 .subscribe-note {
-    display: inline-block;
-    padding: 16px;
+  display: inline-block;
+  padding: 16px;
 }
 
 .subscribe-note a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .video-caption {
-    color: #666;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    font-size: 15px;
-    text-align: left;
-    margin-right: 80px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  text-align: left;
+  margin-right: 80px;
 }
 
 .video-caption span {
-    font-size: 12px;
-    color: #888888;
+  font-size: 12px;
+  color: #888888;
 }
 
 .video-wrap {
-    margin: 43px 0;
+  margin: 43px 0;
 }
 
 .telescope-wrap img {
-    width: 120%;
-    position: relative;
-    left: -10%;
+  width: 120%;
+  position: relative;
+  left: -10%;
 }
 
 .telescope-wrap {
-    margin: 43px 0;
+  margin: 43px 0;
 }
 
-
 .telescope-caption {
-    color: #666;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    font-size: 15px;
-    text-align: left;
-    position: relative;
-    width: 115%;
-    left: -10%;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+  width: 115%;
+  left: -10%;
 }
 
 .telescope-caption span {
-    font-size: 12px;
-    color: #888888;
+  font-size: 12px;
+  color: #888888;
 }
