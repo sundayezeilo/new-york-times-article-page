@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html {
-    background-color: #f4f4f4;
+    background-color: #fff;
     font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
 }
 
 .header-container {
     height: 45px;
     background-color: white;
+    font-family: nyt-franklin, georgia, 'times new roman', times, serif;
+    /* border: 1px solid red; */
 }
 
 .header-left-container {
@@ -52,6 +54,7 @@ html {
 .header-right-container a,
 button {
     vertical-align: bottom;
+    font-size: 11px;
 }
 
 
@@ -66,25 +69,23 @@ button {
     text-decoration: none;
 }
 
-.subscribe-button {
-    text-decoration: none;
-    color: white;
-    background-color: #5995DA;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 5px;
-    width: 170px;
-}
-
+.subscribe-button,
 .login-button {
     text-decoration: none;
     color: white;
-    background-color: #5995DA;
+    background-color: #326891;
     font-weight: bold;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
-    width: 80px;
+    margin-right: 15px;
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
+
+/* .login-button {
+    margin-right: 12px;
+} */
 
 a {
     display: inline-block;
@@ -96,6 +97,7 @@ a {
 
 .main-image img {
     width: 100%;
+    cursor: pointer;
 }
 
 .img-caption-wrap {
@@ -190,6 +192,7 @@ a {
 .blog-text-area {
     width: 600px;
     margin: 0 auto;
+    color: #333;
 }
 
 aside {
@@ -544,7 +547,7 @@ span {
     list-style: none;
 }
 
-.legal-footer a{
+.legal-footer a {
     color: #666666;
     font-size: 11px;
     font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
@@ -555,7 +558,7 @@ span {
     border-top: 1px solid gray;
     font-size: 19px;
     padding: 15px 0;
-    
+
 }
 
 .suggestions a {
@@ -566,10 +569,12 @@ span {
 }
 
 .fixed-bottom-bar {
-    /* position: fixed; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 55px;
     background-color: rgb(51, 51, 51);
-    text-align: center;   
+    text-align: center;
 }
 
 .subscribe-cta {
@@ -580,7 +585,7 @@ span {
     color: white;
 }
 
-.subscribe-cta a{
+.subscribe-cta a {
     color: white;
 }
 
@@ -589,20 +594,20 @@ span {
     padding: 16px;
 }
 
-.subscribe-note a{
+.subscribe-note a {
     color: white;
     text-decoration: none;
 }
 
 .video-caption {
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 15px;
     text-align: left;
     margin-right: 80px;
 }
 
-.video-caption span{
+.video-caption span {
     font-size: 12px;
     color: #888888;
 }
@@ -611,7 +616,7 @@ span {
     margin: 43px 0;
 }
 
-.telescope-wrap img{
+.telescope-wrap img {
     width: 120%;
     position: relative;
     left: -10%;
@@ -624,7 +629,7 @@ span {
 
 .telescope-caption {
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 15px;
     text-align: left;
     position: relative;
@@ -632,7 +637,7 @@ span {
     left: -10%;
 }
 
-.telescope-caption span{
+.telescope-caption span {
     font-size: 12px;
     color: #888888;
 }
