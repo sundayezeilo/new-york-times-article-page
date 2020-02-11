@@ -27,12 +27,3 @@
 - Twitter: [@RecordonG](https://twitter.com/RecordonG)
 - Linkedin: [Guilherme Recordon](https://www.linkedin.com/in/gui-recordon-marketingmba/)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/ezeilo-su/new-york-times-article-page/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
