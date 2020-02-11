@@ -156,7 +156,8 @@ a {
 }
 
 .article-date {
-  display: inline;
+  display: block;
+  padding-top: 2px;
   font-size: 13px;
   color: #333333;
   font-family: "nyt-franklin", Helvetica, Arial, sans-serif;
