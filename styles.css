@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 html {
@@ -156,7 +155,7 @@ a {
 }
 
 .article-date {
-  display: block;
+  display: inline;
   padding-top: 2px;
   font-size: 13px;
   color: #333333;
@@ -301,7 +300,7 @@ article a {
   font-weight: 400;
   font-style: normal;
   font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .inflation-image {
@@ -639,7 +638,7 @@ span {
 .footer-links {
   float: left;
   width: 20%;
-  font-family: "nyt-franklin";
+  font-family: nyt-franklin;
 }
 
 .footer-links a {
@@ -823,3 +822,4 @@ span {
 .ghost-heading {
   display: none;
 }
+
