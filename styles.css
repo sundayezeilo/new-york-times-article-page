@@ -16,6 +16,7 @@ html {
   font-family: nyt-franklin, georgia, "times new roman", times, serif;
   width: 100%;
   position: fixed;
+  padding: 0 15px;
   top: 0;
   border-bottom: 1px solid rgb(226, 226, 226);
   z-index: 1;
@@ -25,7 +26,7 @@ html {
   float: left;
   width: 33.3%;
   height: 100%;
-  margin: 7px 0;
+  margin: 10px 0;
 }
 
 .header-left-container li {
@@ -33,7 +34,8 @@ html {
 }
 
 .header-left-container i {
-  vertical-align: bottom;
+  vertical-align: middle;
+  padding: 0 15px;
 }
 
 .header-center-container {
@@ -59,7 +61,7 @@ button {
 
 .ny-times-main-logo {
   width: 200px;
-  margin-top: 8px;
+  margin-top: 11px;
 }
 
 .space-cosmos-text {
@@ -79,10 +81,6 @@ button {
   font-size: 11px;
   margin-top: 3px;
   margin-bottom: 3px;
-}
-
-.login-button {
-  margin-right: 12px;
 }
 
 a {
@@ -129,10 +127,10 @@ a {
   text-align: left;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1024px) {
   .main-heading br {
-  display: none;
-} 
+    display: none;
+  }
 }
 
 .main-caption-container {
@@ -293,11 +291,15 @@ article a {
   width: 945px;
   position: relative;
   left: -172.5px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
-.lower-text-3 p {
+.summary-text {
+  color: #666;
   font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
   margin-bottom: 0px;
 }
 
@@ -419,12 +421,20 @@ span {
 }
 
 .inflation-textboxes {
-  width: 228px;
-  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
-  font-size: 14px;
   position: absolute;
+  width: 228px;
+  font-weight: 300;
+  color: #000000;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  font-size: 14px;
   top: 36%;
   left: 0.0436%;
+}
+
+.inflation-highlight {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .not-enough-time {
@@ -458,6 +468,24 @@ span {
   left: 75%;
 }
 
+.story-footer:before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.story-info {
+  font-size: 14px;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
 .bottom-articles {
   max-width: 1200px;
   margin: 0 auto;
@@ -470,7 +498,7 @@ span {
   overflow: hidden;
 }
 
-.especial-line1 {
+.special-line1 {
   width: 97.7%;
   margin: 0 auto;
 }
@@ -500,7 +528,7 @@ span {
   height: 300px;
 }
 
-.article figcaption {
+.article .fig-caption {
   text-align: right;
   font-size: 10px;
 }
@@ -520,7 +548,8 @@ span {
 .article-link {
   text-decoration: none;
   font-size: 18px;
-  font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif, sans-serif;
+  font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif,
+    sans-serif;
   color: #121212;
 }
 
@@ -538,7 +567,10 @@ span {
 }
 
 .ny-times-footer-img {
-  width: 200px;
+  height: 44px;
+  display: block;
+  height: 44px;
+  width: 184px;
 }
 
 .most-popular-title {
@@ -567,8 +599,8 @@ span {
   position: relative;
   margin-top: 1px;
   border-top: 1px solid #e2e2e2;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .homepage-link {
@@ -774,7 +806,7 @@ span {
   border-bottom: 1px solid#e2e2e2;
 }
 
-.subscription-middle a{
+.subscription-middle a {
   font-size: 11px;
 }
 
@@ -784,4 +816,8 @@ span {
 
 .subscription-bottom a {
   font-size: 11px;
+}
+
+.ghost-heading {
+  display: none;
 }
