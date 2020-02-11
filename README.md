@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# New York Times Article Page Clone
 
-You can use the [editor on GitHub](https://github.com/ezeilo-su/new-york-times-article-page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> This project consists of cloning an article page of the The New York Times. Here is a link to the original page: (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![screenshot](images/screen-shot.png)
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- CSS,
+- HTML
 
-```markdown
-Syntax highlighted code block
+## Live Demo
 
-# Header 1
-## Header 2
-### Header 3
+[Live Demo Link](https://ezeilo-su.github.io/new-york-times-article-page/)
 
-- Bulleted
-- List
+## Authors
 
-1. Numbered
-2. List
+👤 **Sunday Ezeilo**
 
-**Bold** and _Italic_ and `Code` text
+- Github: [@ezeilo-su](https://github.com/ezeilo-su)
+- Twitter: [@SundayEzeilo](https://twitter.com/SundayEzeilo)
+- Linkedin: [Sunday Ezeilo](https://www.linkedin.com/in/sunday-ezeilo-a6a67664)
 
-[Link](url) and ![Image](src)
-```
+👤 **Guilherme Recordon**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Github: [@guirecordon](https://github.com/guirecordon)
+- Twitter: [@RecordonG](https://twitter.com/RecordonG)
+- Linkedin: [Guilherme Recordon](https://www.linkedin.com/in/gui-recordon-marketingmba/)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ezeilo-su/new-york-times-article-page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
