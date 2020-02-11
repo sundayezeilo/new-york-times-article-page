@@ -109,23 +109,30 @@ a {
   height: 96px;
 }
 
-.main-heading {
-  width: 70%;
-  max-width: 320px;
-  margin: 10px 0 0 15%;
+.main-heading-wrap {
+  width: 100%;
+  text-align: center;
 }
 
 .main-heading {
   display: inline-block;
-  max-width: 558.281px;
+  min-width: 600px;
+  max-width: 1004px;
+  margin: 45px auto 0 auto;
   margin-top: 2em;
-  margin-left: 30%;
   color: #121212;
   font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 40px;
   line-height: 2.25rem;
+  text-align: left;
+}
+
+@media (max-width: 1600px) {
+  .main-heading br {
+  display: none;
+} 
 }
 
 .main-caption-container {
@@ -192,6 +199,10 @@ a {
   width: 600px;
   margin: 0 auto;
   color: #333;
+}
+
+.blog-text-area h3 {
+  margin-bottom: 15px;
 }
 
 aside {
@@ -587,7 +598,7 @@ span {
 
 .right-side-links-container .footer-links {
   width: 100%;
-  border-left: 1px solid gray;
+  border-left: 1px solid #e2e2e2e2;
   padding-left: 10px;
 }
 
@@ -634,6 +645,7 @@ span {
 .legal-footer li {
   display: inline;
   list-style: none;
+  padding: 0 10px;
 }
 
 .legal-footer a {
@@ -665,30 +677,40 @@ span {
   bottom: 0;
   width: 100%;
   height: 55px;
+  line-height: 55px;
   background-color: rgb(51, 51, 51);
   text-align: center;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .subscribe-cta {
   position: absolute;
   display: inline-block;
   right: 10%;
-  padding: 16px;
   color: white;
 }
 
 .subscribe-cta a {
   color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .subscribe-note {
   display: inline-block;
-  padding: 16px;
 }
 
 .subscribe-note a {
   color: white;
   text-decoration: none;
+}
+
+.arrow-head {
+  position: relative;
+  bottom: 50%;
+  transform: translateX(50%);
 }
 
 .video-caption {
