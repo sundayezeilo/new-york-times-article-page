@@ -434,7 +434,7 @@ span {
   border-radius: 4px;
   margin-bottom: 5px;
   box-shadow: none;
-  border: 1px solid #fff;
+  border: 1px solid #666;
 }
 
 .signup-submit {
@@ -450,7 +450,7 @@ span {
 
 .accept-terms span {
   font-size: 14px;
-  color: #fff;
+  color: #666;
 }
 
 .blog-text-area p {
